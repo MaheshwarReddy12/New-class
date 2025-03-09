@@ -1,0 +1,52 @@
+        GIT COMMANDS AND IMPORTANT POINTS :
+
+git init   ----> For One Project We use this command One time only.
+git status
+git add "Write file name"   ----> For one file to move we use git add "Write file name".
+git add .  -----> For All files to move we use git add . (dot = all)
+git commit -m "write comment here"
+git push -u origin main/master
+git log
+git status
+git remote
+git remote -v
+
+If any mistake and we want to go back we can use one command i.e.,
+ :wq!
+
+creating - User Name and User Email :
+
+User Name :
+    git config --global user.name "Write any one name".
+
+User Email :
+    git config --global user.email "Write any one email".
+
+Repository = Folder
+Local Repository = Local Folder
+Project Folder = Working Directory
+
+Path: 
+    Working Directory ----- Staging Area/Index ------ Local Repository ------ Cloud Repository
+
+GUI = Graphical User Interface Version.
+CLI = Command Line Interface.
+
+U = untracked file
+A = added
+
+One Repository will have only one Address.
+One Repository We Can Add only one Address.
+
+If we want to change the address we need to delete old address.
+For deleting address we need to use one command i.e.,
+    git remote remove origin
+
+If one file deleted in our local system and we need to restore that, we need to use one command i.e.,
+    git restore "enter file name"
+
+If we want to change the Branch name then use below command.
+        git branch -M Enter New Branch name
+        
+
+
